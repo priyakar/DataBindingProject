@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DrawableBackground">
+        <attr name="ripple_color" format="color"/>
+        <attr name="ripple_stroke_width" format="dimension"/>
+        <attr name="ripple_radius" format="dimension"/>
+        <attr name="ripple_duration" format="integer"/>
+        <attr name="ripple_amount" format="integer"/>
+        <attr name="ripple_scale" format="float"/>
+        <attr name="ripple_type" format="integer"/>
+        <attr name="ripple_drawable" format="reference"/>
+    </declare-styleable>
+</resources>
