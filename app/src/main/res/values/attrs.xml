@@ -9,6 +9,5 @@
         <attr name="ripple_amount" format="integer"/>
         <attr name="ripple_scale" format="float"/>
         <attr name="ripple_type" format="integer"/>
-        <attr name="ripple_drawable" format="reference"/>
     </declare-styleable>
 </resources>

@@ -43,7 +43,7 @@ public class LandingActivity extends AppCompatActivity {
         ripples.addAnimation(zoomOut);
         ripples.setDuration(3000);
         ripples.setRepeatCount(-1);
-        binding.content.startAnimation(ripples);
+        binding.content.startRippleAnimation();
 
     }
 
