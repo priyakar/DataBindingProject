@@ -12,6 +12,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/root_view"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
@@ -20,27 +21,28 @@
 
         <Button
             android:id="@+id/openMain"
+            android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Click" />
 
-        <com.example.priya.databindingproject.DrawableBackground
-            android:layout_width="match_parent"
-            android:id="@+id/content"
-            app:ripple_radius="35dp"
-            app:ripple_amount="3"
-            app:ripple_color="@color/colorAccent"
-            app:ripple_scale="6"
-            app:ripple_duration="3000"
-            android:layout_height="match_parent">
+        <!--<com.example.priya.databindingproject.DrawableBackground-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/content"-->
+            <!--app:ripple_radius="35dp"-->
+            <!--app:ripple_amount="3"-->
+            <!--app:ripple_color="@color/colorAccent"-->
+            <!--app:ripple_scale="6"-->
+            <!--app:ripple_duration="3000"-->
+            <!--android:layout_height="match_parent">-->
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/content"
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="60dp"
-                android:src="@mipmap/ic_launcher" />
-        </com.example.priya.databindingproject.DrawableBackground>
+                android:layout_marginTop="60dp" />
+        <!--</com.example.priya.databindingproject.DrawableBackground>-->
 
     </RelativeLayout>
 </layout>

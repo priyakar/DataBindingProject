@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="rippleStrokeWidth">16dp</dimen>
     <dimen name="rippleRadius">26dp</dimen>
+    <dimen name="image_size">50dp</dimen>
 </resources>
