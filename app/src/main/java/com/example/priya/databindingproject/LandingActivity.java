@@ -58,6 +58,7 @@ public class LandingActivity extends AppCompatActivity {
 
         params = new RelativeLayout.LayoutParams((int) getResources().getDimension(R.dimen.image_size),
                 (int) getResources().getDimension(R.dimen.image_size));
+        params.addRule(RelativeLayout.CENTER_IN_PARENT, RelativeLayout.TRUE);
         fade = AnimatorInflater.loadAnimator(this, R.animator.fade_out_animation);
         zoom = AnimatorInflater.loadAnimator(this, R.animator.zoom_out_animation);
         for (int i = 0; i < 4; i++) {
