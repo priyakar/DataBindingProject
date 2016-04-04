@@ -6,7 +6,6 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.example.priya.databindingproject.BR;
-import com.example.priya.databindingproject.PhonewordUtils;
 
 public class ViewModel extends BaseObservable {
 
